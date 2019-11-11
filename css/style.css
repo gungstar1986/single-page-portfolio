@@ -76,48 +76,47 @@ body {
   padding-bottom: 50px;
 }
 .service-provide-text {
-    text-align: center;
+  text-align: center;
 }
 .text-1 {
-    color: #fff;
-    font-size: 35pt;
-    padding-top: 100px;
-    margin: 0px 10px;
+  color: #fff;
+  font-size: 35pt;
+  padding-top: 100px;
+  margin: 0px 10px;
 }
 .horizontal-line {
-    height: 4px;
-    width: 90px;
-    background: #14a58c;
-    margin: 20px auto 25px auto;
+  height: 4px;
+  width: 90px;
+  background: #14a58c;
+  margin: 20px auto 25px auto;
 }
 .text-2 {
-    color: #fff;
-    font-size: 15pt;
-    margin: 0px 10px;
+  color: #fff;
+  font-size: 15pt;
+  margin: 0px 10px;
 }
 .wrapper-service {
-    max-width: 1130px;
-    /* background: rgb(238, 142, 214); */
-    margin: 70px auto;
-    background: none;
+  max-width: 1130px;
+  /* background: rgb(238, 142, 214); */
+  margin: 70px auto;
+  background: none;
 }
 .wrapper-service::after {
-    content: "";
-    display: block;
-    clear: both;
+  content: "";
+  display: block;
+  clear: both;
 }
 .service-items {
-    width: 25%;
-    height: 330px;
-    float: left;
-    box-sizing: border-box;
-    padding: auto;
-    text-align: center;
-    position: relative;
-    /* background: rgb(255, 169, 251); */
+  width: 25%;
+  height: 330px;
+  float: left;
+  box-sizing: border-box;
+  padding: auto;
+  text-align: center;
+  position: relative;
+  /* background: rgb(255, 169, 251); */
 }
 /* END SERVICE PART */
-
 
 /* START TEAM PART */
 .meet-our-beutiful-team {
@@ -129,35 +128,34 @@ body {
   padding-bottom: 50px;
 }
 .text-1-1 {
-    color: #3c4761;
-    font-size: 35pt;
-    padding-top: 100px;
-    margin: 0px 10px;
+  color: #3c4761;
+  font-size: 35pt;
+  padding-top: 100px;
+  margin: 0px 10px;
 }
 .horizontal-line-2 {
-    height: 4px;
-    width: 90px;
-    background: #c8d9e5;
-    margin: 20px auto 25px auto;
+  height: 4px;
+  width: 90px;
+  background: #c8d9e5;
+  margin: 20px auto 25px auto;
 }
 .text-2-2 {
-    color: #3c4761;
-    font-size: 15pt;
-    margin: 0px 10px;
+  color: #3c4761;
+  font-size: 15pt;
+  margin: 0px 10px;
 }
 .service-items-2 {
-    width: 25%;
-    height: auto;
-    float: left;
-    box-sizing: border-box;
-    padding: auto;
-    text-align: center;
-    position: relative;
-    /* background: rgb(255, 169, 251); */
+  width: 25%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: auto;
+  text-align: center;
+  position: relative;
+  /* background: rgb(255, 169, 251); */
 }
 
 /* END TEAM PART */
-
 
 .we-got-skills {
   max-width: 1440px;
@@ -196,36 +194,33 @@ body {
 }
 
 @media screen and (max-width: 1200px) {
-    .service-items {
-        width: 50%;
-    }
-    .service-items-2 {
-        width: 50%;
-    }
+  .service-items {
+    width: 50%;
+  }
+  .service-items-2 {
+    width: 50%;
+  }
 }
-
 
 @media screen and (max-width: 650px) {
-    .main-haeder-text {
-        font-size: 20pt;
-        margin: 100px 10px 0px 10px;
-    }
-    .button-menu {
-        font-size: 10pt;
-        float: none;
-        text-align: right;
-        /* background: none; */
-        width: 70px;
-    }
-    .service-items {
-        width: 100%;
-    }
-    .service-items-2 {
-        width: 100%;
-    }
-    .main-logo {
-        margin-left: 10px;
-    }
+  .main-haeder-text {
+    font-size: 20pt;
+    margin: 100px 10px 0px 10px;
+  }
+  .button-menu {
+    font-size: 10pt;
+    float: none;
+    text-align: right;
+    /* background: none; */
+    width: 70px;
+  }
+  .service-items {
+    width: 100%;
+  }
+  .service-items-2 {
+    width: 100%;
+  }
+  .main-logo {
+    margin-left: 10px;
+  }
 }
-
-
