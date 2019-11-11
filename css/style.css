@@ -1,0 +1,231 @@
+html,
+body {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+/* START HEADER PART */
+.site-header-portfolio {
+  background: #87509c;
+  height: 100vh;
+  width: 100%;
+  padding-top: 60px;
+  height: 100vh;
+  /* padding-bottom: 40px; */
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+.container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.wrapper {
+  width: 95%;
+  margin: 0 auto;
+  /* background: cyan;  */
+}
+.wrapper::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.main-logo {
+  float: left;
+}
+.button-menu {
+  float: right;
+  font-size: 12pt;
+  color: #eeebf0;
+  margin: 5px 20px 5px auto;
+  border-radius: 7px;
+  padding: 5px 8px;
+  background: #643a79;
+}
+.main-haeder-text {
+  font-size: 38pt;
+  text-align: center;
+  margin: 220px 20px 0 20px;
+  color: #f7f3ea;
+}
+.big-button-place {
+  text-align: center;
+  padding-top: 60px;
+}
+.big-button {
+  width: 290px;
+  height: 70px;
+  background: #eb7d4b;
+  border-bottom: 4px solid #c86a40;
+  border-radius: 7px;
+  font-size: 16pt;
+  color: #f7f3ea;
+  margin-bottom: 140px;
+}
+/* END HEADER PART */
+
+/* START SERVICE PART */
+.services-we-provide {
+  max-width: 1440px;
+  height: auto;
+  background: #17c2a4;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.service-provide-text {
+    text-align: center;
+}
+.text-1 {
+    color: #fff;
+    font-size: 35pt;
+    padding-top: 100px;
+    margin: 0px 10px;
+}
+.horizontal-line {
+    height: 4px;
+    width: 90px;
+    background: #14a58c;
+    margin: 20px auto 25px auto;
+}
+.text-2 {
+    color: #fff;
+    font-size: 15pt;
+    margin: 0px 10px;
+}
+.wrapper-service {
+    max-width: 1130px;
+    /* background: rgb(238, 142, 214); */
+    margin: 70px auto;
+    background: none;
+}
+.wrapper-service::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.service-items {
+    width: 25%;
+    height: 330px;
+    float: left;
+    box-sizing: border-box;
+    padding: auto;
+    text-align: center;
+    position: relative;
+    /* background: rgb(255, 169, 251); */
+}
+/* END SERVICE PART */
+
+
+/* START TEAM PART */
+.meet-our-beutiful-team {
+  max-width: 1440px;
+  height: auto;
+  background: #e7f1f8;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+.text-1-1 {
+    color: #3c4761;
+    font-size: 35pt;
+    padding-top: 100px;
+    margin: 0px 10px;
+}
+.horizontal-line-2 {
+    height: 4px;
+    width: 90px;
+    background: #c8d9e5;
+    margin: 20px auto 25px auto;
+}
+.text-2-2 {
+    color: #3c4761;
+    font-size: 15pt;
+    margin: 0px 10px;
+}
+.service-items-2 {
+    width: 25%;
+    height: auto;
+    float: left;
+    box-sizing: border-box;
+    padding: auto;
+    text-align: center;
+    position: relative;
+    /* background: rgb(255, 169, 251); */
+}
+
+/* END TEAM PART */
+
+
+.we-got-skills {
+  max-width: 1440px;
+  height: 655px;
+  background: rgb(255, 255, 255);
+  margin-left: auto;
+  margin-right: auto;
+}
+.our-portfolio {
+  max-width: 1440px;
+  height: 1425px;
+  background: #ffdd99;
+  margin-left: auto;
+  margin-right: auto;
+}
+.what-about-us {
+  max-width: 1440px;
+  height: 895px;
+  background: #d74680;
+  margin-left: auto;
+  margin-right: auto;
+}
+.get-in-touch {
+  max-width: 1440px;
+  height: 815px;
+  background: #3c5499;
+  margin-left: auto;
+  margin-right: auto;
+}
+.site-footer {
+  max-width: 1440px;
+  height: 110px;
+  background: #344b8e;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media screen and (max-width: 1200px) {
+    .service-items {
+        width: 50%;
+    }
+    .service-items-2 {
+        width: 50%;
+    }
+}
+
+
+@media screen and (max-width: 650px) {
+    .main-haeder-text {
+        font-size: 20pt;
+        margin: 100px 10px 0px 10px;
+    }
+    .button-menu {
+        font-size: 10pt;
+        float: none;
+        text-align: right;
+        /* background: none; */
+        width: 70px;
+    }
+    .service-items {
+        width: 100%;
+    }
+    .service-items-2 {
+        width: 100%;
+    }
+    .main-logo {
+        margin-left: 10px;
+    }
+}
+
+
