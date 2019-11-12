@@ -381,7 +381,7 @@ body {
   box-sizing: border-box;
   margin-right: 16px;
   margin-left: 16px;
-  padding-left: 23px ;
+  padding-left: 23px;
 }
 .form-container-textarea textarea {
   background: #273a71;
@@ -420,7 +420,7 @@ body {
   margin: auto;
 }
 .footer-container::after {
-  content: '';
+  content: "";
   display: block;
   clear: both;
 }
@@ -515,3 +515,22 @@ body {
   }
 }
 /* RESPONSIVE */
+
+/* PLACEHOLDER ALL */
+ /* *::placeholder {
+  font-size: 10pt;
+  color: rgb(196, 195, 195);
+
+}  */
+
+
+*::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease; color: white;}
+*::-moz-placeholder                {opacity: 1; transition: opacity 0.3s ease; color: white;}
+*:-moz-placeholder                 {opacity: 1; transition: opacity 0.3s ease; color: white;}
+*:-ms-input-placeholder            {opacity: 1; transition: opacity 0.3s ease; color: white;}
+*:focus::-webkit-input-placeholder {opacity: 0; transition: opacity 0.3s ease; color: white;}
+*:focus::-moz-placeholder          {opacity: 0; transition: opacity 0.3s ease; color: white;}
+*:focus:-moz-placeholder           {opacity: 0; transition: opacity 0.3s ease; color: white;}
+*:focus:-ms-input-placeholder      {opacity: 0; transition: opacity 0.3s ease; color: white;}
+
+
