@@ -2,6 +2,8 @@ html,
 body {
   margin: 0;
   box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background: rgb(209, 209, 209);
 }
 
 /* START HEADER PART */
@@ -40,7 +42,7 @@ body {
   margin: 5px 20px 5px auto;
   border-radius: 7px;
   padding: 5px 8px;
-  background: #643a79;
+  background: none;
 }
 .main-haeder-text {
   font-size: 38pt;
@@ -163,7 +165,7 @@ body {
 }
 /* END TEAM PART */
 
- /* START SKILLS PART */
+/* START SKILLS PART */
 .we-got-skills {
   max-width: 1440px;
   height: auto;
@@ -177,7 +179,6 @@ body {
   font-size: 30pt;
   padding-top: 100px;
   margin: 0px 10px;
- 
 }
 .horizontal-line-3 {
   height: 4px;
@@ -201,8 +202,6 @@ body {
   padding: 20px;
   text-align: center;
   position: relative;
-
-  /* background: rgb(135, 245, 144); */
 }
 .wrapper-service-skills {
   max-width: 1130px;
@@ -214,39 +213,230 @@ body {
   display: block;
   clear: both;
 }
-
 /* END SKILLS PART */
 
-
+/* STAR OUR PORTFOLIO */
 .our-portfolio {
   max-width: 1440px;
-  height: 1425px;
+  height: auto;
   background: #ffdd99;
   margin-left: auto;
   margin-right: auto;
+  /* padding-bottom: 50px; */
 }
+.text-5-1 {
+  color: #393939;
+  font-size: 30pt;
+  padding-top: 100px;
+  margin: 0px 10px;
+}
+.horizontal-line-5 {
+  height: 4px;
+  width: 90px;
+  background: #e5c37f;
+  margin: 20px auto 25px auto;
+}
+.text-5-2 {
+  color: #534f46;
+  font-size: 15pt;
+  max-width: 640px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.potfolio-buttons-container {
+  max-width: 400px;
+  margin: auto;
+  box-sizing: border-box;
+}
+.potfolio-buttons-container::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+.portfolio-button {
+  width: 90px;
+  height: 36px;
+  float: left;
+  text-align: center;
+  background: #ebc985;
+  margin-left: 5px;
+  margin-right: 5px;
+  padding-top: 4px;
+  font-size: 15pt;
+  border-radius: 5px;
+  margin-top: 45px;
+}
+.service-items-4 {
+  width: 50%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+.service-items-4 img {
+  height: 354px;
+}
+.big-button-place-portfolio {
+  text-align: center;
+  padding-top: 0px;
+}
+.big-button-portfolio {
+  width: 290px;
+  height: 70px;
+  background: #17c2a4;
+  border-bottom: 4px solid #14a58c;
+  border-radius: 7px;
+  font-size: 16pt;
+  color: #f7f3ea;
+  margin-bottom: 110px;
+}
+/* END OUR PORTFOLIO */
+
+/* START ABOUT US PART */
 .what-about-us {
   max-width: 1440px;
-  height: 895px;
+  height: auto;
   background: #d74680;
   margin-left: auto;
   margin-right: auto;
+  padding-bottom: 50px;
 }
+.text-6-1 {
+  color: #ffffff;
+  font-size: 30pt;
+  padding-top: 100px;
+  margin: 0px 10px;
+}
+.horizontal-line-6 {
+  height: 4px;
+  width: 90px;
+  background: #b73c6d;
+  margin: 20px auto 25px auto;
+}
+.text-6-2 {
+  color: #ffffff;
+  font-size: 15pt;
+  max-width: 640px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.service-items-5 {
+  width: 50%;
+  height: auto;
+  float: left;
+  box-sizing: border-box;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+}
+/* END ABOUT US PART */
+
+/* START TOUCH PART */
 .get-in-touch {
   max-width: 1440px;
-  height: 815px;
+  height: auto;
   background: #3c5499;
   margin-left: auto;
   margin-right: auto;
 }
+.text-7-1 {
+  color: #ffffff;
+  font-size: 30pt;
+  padding-top: 100px;
+  margin: 0px 10px;
+}
+.horizontal-line-7 {
+  height: 4px;
+  width: 90px;
+  background: #273a71;
+  margin: 20px auto 25px auto;
+}
+.text-7-2 {
+  color: #ffffff;
+  font-size: 11pt;
+  max-width: 640px;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.service-items-6 {
+  width: 100%;
+  height: auto;
+  text-align: center;
+}
+.form-container-textarea {
+  max-width: 890px;
+  margin: auto;
+}
+.form-container-textarea input {
+  width: 410px;
+  height: 55px;
+  background: #273a71;
+  border-radius: 3px;
+  border: 3px solid #273a71;
+  box-sizing: border-box;
+  margin-right: 16px;
+  margin-left: 16px;
+  padding-left: 23px ;
+}
+.form-container-textarea textarea {
+  background: #273a71;
+  border-radius: 3px;
+  border: 3px solid #273a71;
+  margin: auto;
+  width: 95.5%;
+  margin-top: 25px;
+  padding-left: 23px 0 0 23px;
+}
+.big-button-place-3 {
+  text-align: center;
+  padding-top: 60px;
+}
+.big-button-3 {
+  width: 290px;
+  height: 70px;
+  background: #30bae7;
+  border-bottom: 4px solid #299ec5;
+  border-radius: 7px;
+  font-size: 16pt;
+  color: #f7f3ea;
+  margin-bottom: 50px;
+}
+/* END TOUCH PART */
+
+/* START FOOTER PART */
 .site-footer {
   max-width: 1440px;
   height: 110px;
   background: #344b8e;
-  margin-left: auto;
-  margin-right: auto;
 }
+.footer-container {
+  height: 100%;
+  max-width: 1100px;
+  margin: auto;
+}
+.footer-container::after {
+  content: '';
+  display: block;
+  clear: both;
+}
+.footers-divs {
+  float: left;
+  height: 100%;
+  width: 14.28%;
+  box-sizing: border-box;
+  text-align: center;
+  padding: 42px 5px 0 5px;
+  font-size: 15pt;
+  color: #fff;
+}
+/* END FOOTER PART */
 
+/* RESPONSIVE */
 @media screen and (max-width: 1200px) {
   .service-items {
     width: 50%;
@@ -257,8 +447,23 @@ body {
   .service-items-3 {
     width: 50%;
   }
+  .service-items-4 {
+    width: 100%;
+  }
+  .service-items-5 {
+    width: 100%;
+  }
+  .form-container {
+    width: 540px;
+  }
+  .form-container-textarea textarea {
+    width: 550px;
+  }
+  .form-container-textarea input {
+    margin-top: 25px;
+    width: 560px;
+  }
 }
-
 @media screen and (max-width: 650px) {
   .main-haeder-text {
     font-size: 20pt;
@@ -282,4 +487,31 @@ body {
   .main-logo {
     margin-left: 10px;
   }
+  .potfolio-buttons-container {
+    width: 220px;
+  }
+  .portfolio-button {
+    font-size: 10pt;
+    width: 45px;
+    height: 15px;
+    padding-bottom: 5px;
+  }
+  .form-container-textarea textarea {
+    width: 83.5%;
+  }
+  .form-container-textarea input {
+    margin-top: 25px;
+    width: 85%;
+  }
+  .footers-divs {
+    font-size: 8pt;
+  }
+  .service-items-5 img {
+    height: 100px;
+  }
+  .service-items-4 img {
+    width: 300px;
+    height: 200px;
+  }
 }
+/* RESPONSIVE */
