@@ -515,12 +515,6 @@ body {
 }
 /* RESPONSIVE */
 
-/* PLACEHOLDER ALL */
- /* *::placeholder {
-  font-size: 10pt;
-  color: rgb(196, 195, 195);
-
-}  */
 
 
 *::-webkit-input-placeholder       {opacity: 1; transition: opacity 0.3s ease; color: white;}
